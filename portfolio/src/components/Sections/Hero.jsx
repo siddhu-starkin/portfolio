@@ -24,11 +24,8 @@ const Hero = () => {
             </div>
             <div className="items-center box-border caret-transparent gap-x-6 flex flex-col gap-y-6 text-center md:items-start md:text-left">
               <div className="items-center box-border caret-transparent gap-x-4 flex flex-wrap justify-center gap-y-4 text-center md:justify-start md:text-left">
-                <h1 className="text-transparent text-4xl font-bold bg-clip-text bg-[linear-gradient(to_right,rgb(23,23,23),rgba(23,23,23,0.8),rgba(23,23,23,0.6))] box-border tracking-[-0.9px] leading-[49.5px] break-words text-center md:text-5xl md:tracking-[-1.2px] md:leading-[48px]">
-                  Harshhaa Vardh
-                  <span className="text-4xl box-border tracking-[-0.9px] leading-[49.5px] break-words md:text-5xl md:tracking-[-1.2px] md:leading-[48px]">
-                    |
-                  </span>
+                <h1 className="text-white text-4xl font-bold tracking-[-0.9px] leading-[49.5px] break-words text-center md:text-5xl md:tracking-[-1.2px] md:leading-[48px] text-pretty">
+                  Harshhaa Vardhan Reddy
                 </h1>
                 <a
                   href="https://linkedin.com/in/harshhaa-vardhan-reddy"
@@ -38,12 +35,12 @@ const Hero = () => {
                   Available
                 </a>
               </div>
-              <div className="text-neutral-800 bg-transparent shadow-none box-border caret-transparent gap-x-2.5 flex flex-col gap-y-2.5 text-center w-full border-neutral-200 p-5 rounded-none border-0 border-solid font-geistmono_f910ec md:backdrop-blur-sm md:bg-white/30 md:shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_20px_25px_-5px,rgba(0,0,0,0.1)_0px_8px_10px_-6px] md:gap-x-3 md:gap-y-3 md:text-left md:border md:p-8 md:rounded-2xl md:border-white/20">
-                <p className="text-transparent text-lg font-semibold bg-clip-text bg-[linear-gradient(to_right,rgb(23,23,23),rgba(23,23,23,0.7))] box-border leading-7 text-center md:text-xl md:text-left">
+              <div className="text-white bg-transparent shadow-none box-border caret-transparent gap-x-2.5 flex flex-col gap-y-2.5 text-center w-full p-5 rounded-none border-0 border-solid font-mono md:backdrop-blur-sm md:bg-white/10 md:shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_20px_25px_-5px,rgba(0,0,0,0.1)_0px_8px_10px_-6px] md:gap-x-3 md:gap-y-3 md:text-left md:border md:p-8 md:rounded-2xl md:border-white/20">
+                <p className="text-white text-lg font-semibold box-border leading-7 text-center md:text-xl md:text-left text-pretty">
                   DevOps Engineer focused on automation, scalability, and cloud
                   infrastructure. Based in Hyderabad, India 🇮🇳
                 </p>
-                <h3 className="text-base box-border caret-transparent leading-[26px] opacity-90 text-center md:text-lg md:leading-7 md:text-left">
+                <p className="text-white text-base box-border caret-transparent leading-[26px] opacity-90 text-center md:text-lg md:leading-7 md:text-left text-pretty">
                   I'm a passionate DevOps Engineer on a mission to automate
                   everything and build highly scalable cloud infrastructures. With a
                   strong focus on cloud computing, automation, and DevOps best
@@ -55,7 +52,7 @@ const Hero = () => {
                   interview preparation content and cheat sheets, design curated
                   learning paths for engineers at all levels, and foster collaborative
                   spaces for open-source contributions and knowledge sharing.
-                </h3>
+                </p>
               </div>
             </div>
             <nav className="[align-items:normal] box-border caret-transparent gap-x-3 grid grid-cols-[repeat(1,minmax(0px,1fr))] justify-normal gap-y-3 text-center w-full md:items-center md:gap-x-4 md:flex md:grid-cols-[repeat(3,minmax(0px,1fr))] md:justify-center md:gap-y-4 md:text-left">
@@ -63,14 +60,14 @@ const Hero = () => {
                 <a
                   href="https://github.com/NotHarshhaa"
                   aria-label="GitHub"
-                  className="text-neutral-900 text-sm font-semibold items-center backdrop-blur-sm bg-white/70 shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent gap-x-2.5 flex justify-center leading-5 min-w-40 gap-y-2.5 text-center text-nowrap w-full border border-neutral-900/20 px-4 py-2.5 rounded-xl border-solid md:gap-x-3 md:min-w-[180px] md:gap-y-3 md:text-left md:w-auto md:px-6 md:py-3 hover:bg-neutral-900/10 hover:shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(23,23,23,0.2)_0px_10px_15px_-3px,rgba(23,23,23,0.2)_0px_4px_6px_-4px]"
+                  className="text-white text-sm font-semibold items-center backdrop-blur-sm bg-gray-800/70 shadow-lg box-border caret-transparent gap-x-2.5 flex justify-center leading-5 min-w-40 gap-y-2.5 text-center text-nowrap w-full border border-gray-600/20 px-4 py-2.5 rounded-xl border-solid md:gap-x-3 md:min-w-[180px] md:gap-y-3 md:text-left md:w-auto md:px-6 md:py-3 hover:bg-gray-700/50 hover:shadow-xl"
                 >
                   <img
                     src="https://c.animaapp.com/mgxexrjdNC0nO9/assets/icon-2.svg"
                     alt="Icon"
                     className="box-border caret-transparent h-[20.8px] text-center text-nowrap w-[20.8px] md:h-5 md:text-left md:w-5"
                   />
-                  <p className="text-neutral-900/80 box-border caret-transparent text-center text-nowrap md:text-left">
+                  <p className="text-white box-border caret-transparent text-center text-nowrap md:text-left">
                     GitHub
                   </p>
                 </a>
@@ -79,14 +76,14 @@ const Hero = () => {
                 <a
                   href="https://linkedin.com/in/harshhaa-vardhan-reddy"
                   aria-label="LinkedIn"
-                  className="text-neutral-900 text-sm font-semibold items-center backdrop-blur-sm bg-white/70 shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent gap-x-2.5 flex justify-center leading-5 min-w-40 gap-y-2.5 text-center text-nowrap w-full border border-neutral-900/20 px-4 py-2.5 rounded-xl border-solid md:gap-x-3 md:min-w-[180px] md:gap-y-3 md:text-left md:w-auto md:px-6 md:py-3 hover:bg-neutral-900/10 hover:shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(23,23,23,0.2)_0px_10px_15px_-3px,rgba(23,23,23,0.2)_0px_4px_6px_-4px]"
+                  className="text-white text-sm font-semibold items-center backdrop-blur-sm bg-gray-800/70 shadow-lg box-border caret-transparent gap-x-2.5 flex justify-center leading-5 min-w-40 gap-y-2.5 text-center text-nowrap w-full border border-gray-600/20 px-4 py-2.5 rounded-xl border-solid md:gap-x-3 md:min-w-[180px] md:gap-y-3 md:text-left md:w-auto md:px-6 md:py-3 hover:bg-gray-700/50 hover:shadow-xl"
                 >
                   <img
                     src="https://c.animaapp.com/mgxexrjdNC0nO9/assets/icon-3.svg"
                     alt="Icon"
                     className="box-border caret-transparent h-[20.8px] text-center text-nowrap w-[20.8px] md:h-5 md:text-left md:w-5"
                   />
-                  <p className="text-neutral-900/80 box-border caret-transparent text-center text-nowrap md:text-left">
+                  <p className="text-white box-border caret-transparent text-center text-nowrap md:text-left">
                     LinkedIn
                   </p>
                 </a>
@@ -95,14 +92,14 @@ const Hero = () => {
                 <a
                   href="https://t.me/notharshhaa"
                   aria-label="Telegram"
-                  className="text-neutral-900 text-sm font-semibold items-center backdrop-blur-sm bg-white/70 shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent gap-x-2.5 flex justify-center leading-5 min-w-40 gap-y-2.5 text-center text-nowrap w-full border border-neutral-900/20 px-4 py-2.5 rounded-xl border-solid md:gap-x-3 md:min-w-[180px] md:gap-y-3 md:text-left md:w-auto md:px-6 md:py-3 hover:bg-neutral-900/10 hover:shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(23,23,23,0.2)_0px_10px_15px_-3px,rgba(23,23,23,0.2)_0px_4px_6px_-4px]"
+                  className="text-white text-sm font-semibold items-center backdrop-blur-sm bg-gray-800/70 shadow-lg box-border caret-transparent gap-x-2.5 flex justify-center leading-5 min-w-40 gap-y-2.5 text-center text-nowrap w-full border border-gray-600/20 px-4 py-2.5 rounded-xl border-solid md:gap-x-3 md:min-w-[180px] md:gap-y-3 md:text-left md:w-auto md:px-6 md:py-3 hover:bg-gray-700/50 hover:shadow-xl"
                 >
                   <img
                     src="https://c.animaapp.com/mgxexrjdNC0nO9/assets/icon-4.svg"
                     alt="Icon"
                     className="box-border caret-transparent h-[20.8px] text-center text-nowrap w-[20.8px] md:h-5 md:text-left md:w-5"
                   />
-                  <p className="text-neutral-900/80 box-border caret-transparent text-center text-nowrap md:text-left">
+                  <p className="text-white box-border caret-transparent text-center text-nowrap md:text-left">
                     Telegram
                   </p>
                 </a>
@@ -111,14 +108,14 @@ const Hero = () => {
                 <a
                   href="https://cv.notharshhaa.site/"
                   aria-label="Resume"
-                  className="text-neutral-900 text-sm font-semibold items-center backdrop-blur-sm bg-white/70 shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent gap-x-2.5 flex justify-center leading-5 min-w-40 gap-y-2.5 text-center text-nowrap w-full border border-neutral-900/20 px-4 py-2.5 rounded-xl border-solid md:gap-x-3 md:min-w-[180px] md:gap-y-3 md:text-left md:w-auto md:px-6 md:py-3 hover:bg-neutral-900/10 hover:shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(23,23,23,0.2)_0px_10px_15px_-3px,rgba(23,23,23,0.2)_0px_4px_6px_-4px]"
+                  className="text-white text-sm font-semibold items-center backdrop-blur-sm bg-gray-800/70 shadow-lg box-border caret-transparent gap-x-2.5 flex justify-center leading-5 min-w-40 gap-y-2.5 text-center text-nowrap w-full border border-gray-600/20 px-4 py-2.5 rounded-xl border-solid md:gap-x-3 md:min-w-[180px] md:gap-y-3 md:text-left md:w-auto md:px-6 md:py-3 hover:bg-gray-700/50 hover:shadow-xl"
                 >
                   <img
                     src="https://c.animaapp.com/mgxexrjdNC0nO9/assets/icon-5.svg"
                     alt="Icon"
                     className="box-border caret-transparent h-[20.8px] text-center text-nowrap w-[20.8px] md:h-5 md:text-left md:w-5"
                   />
-                  <p className="text-neutral-900/80 box-border caret-transparent text-center text-nowrap md:text-left">
+                  <p className="text-white box-border caret-transparent text-center text-nowrap md:text-left">
                     Resume
                   </p>
                 </a>
@@ -127,14 +124,14 @@ const Hero = () => {
                 <a
                   href="mailto://harshhaa03@gmail.com"
                   aria-label="Email"
-                  className="text-neutral-900 text-sm font-semibold items-center backdrop-blur-sm bg-white/70 shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent gap-x-2.5 flex justify-center leading-5 min-w-40 gap-y-2.5 text-center text-nowrap w-full border border-neutral-900/20 px-4 py-2.5 rounded-xl border-solid md:gap-x-3 md:min-w-[180px] md:gap-y-3 md:text-left md:w-auto md:px-6 md:py-3 hover:bg-neutral-900/10 hover:shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(23,23,23,0.2)_0px_10px_15px_-3px,rgba(23,23,23,0.2)_0px_4px_6px_-4px]"
+                  className="text-white text-sm font-semibold items-center backdrop-blur-sm bg-gray-800/70 shadow-lg box-border caret-transparent gap-x-2.5 flex justify-center leading-5 min-w-40 gap-y-2.5 text-center text-nowrap w-full border border-gray-600/20 px-4 py-2.5 rounded-xl border-solid md:gap-x-3 md:min-w-[180px] md:gap-y-3 md:text-left md:w-auto md:px-6 md:py-3 hover:bg-gray-700/50 hover:shadow-xl"
                 >
                   <img
                     src="https://c.animaapp.com/mgxexrjdNC0nO9/assets/icon-6.svg"
                     alt="Icon"
                     className="box-border caret-transparent h-[20.8px] text-center text-nowrap w-[20.8px] md:h-5 md:text-left md:w-5"
                   />
-                  <p className="text-neutral-900/80 box-border caret-transparent text-center text-nowrap md:text-left">
+                  <p className="text-white box-border caret-transparent text-center text-nowrap md:text-left">
                     Email
                   </p>
                 </a>
@@ -143,14 +140,14 @@ const Hero = () => {
                 <a
                   href="https://link.notharshhaa.site/"
                   aria-label="Other Links"
-                  className="text-neutral-900 text-sm font-semibold items-center backdrop-blur-sm bg-white/70 shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent gap-x-2.5 flex justify-center leading-5 min-w-40 gap-y-2.5 text-center text-nowrap w-full border border-neutral-900/20 px-4 py-2.5 rounded-xl border-solid md:gap-x-3 md:min-w-[180px] md:gap-y-3 md:text-left md:w-auto md:px-6 md:py-3 hover:bg-neutral-900/10 hover:shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(23,23,23,0.2)_0px_10px_15px_-3px,rgba(23,23,23,0.2)_0px_4px_6px_-4px]"
+                  className="text-white text-sm font-semibold items-center backdrop-blur-sm bg-gray-800/70 shadow-lg box-border caret-transparent gap-x-2.5 flex justify-center leading-5 min-w-40 gap-y-2.5 text-center text-nowrap w-full border border-gray-600/20 px-4 py-2.5 rounded-xl border-solid md:gap-x-3 md:min-w-[180px] md:gap-y-3 md:text-left md:w-auto md:px-6 md:py-3 hover:bg-gray-700/50 hover:shadow-xl"
                 >
                   <img
                     src="https://c.animaapp.com/mgxexrjdNC0nO9/assets/icon-7.svg"
                     alt="Icon"
                     className="box-border caret-transparent h-[20.8px] text-center text-nowrap w-[20.8px] md:h-5 md:text-left md:w-5"
                   />
-                  <p className="text-neutral-900/80 box-border caret-transparent text-center text-nowrap md:text-left">
+                  <p className="text-white box-border caret-transparent text-center text-nowrap md:text-left">
                     Other Links
                   </p>
                 </a>

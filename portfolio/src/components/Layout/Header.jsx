@@ -32,7 +32,7 @@ const Header = () => {
                   aria-label="about"
                   to="/"
                   className={`relative text-white text-sm font-medium box-border caret-transparent leading-5 px-4 py-2 ${
-                    location.pathname === '/' ? 'text-neutral-900' : 'hover:text-neutral-900'
+                    location.pathname === '/' ? 'text-white' : 'hover:text-white'
                   }`}
                 >
                   About
@@ -46,12 +46,12 @@ const Header = () => {
                   aria-label="career"
                   to="/career"
                   className={`relative text-sm font-medium box-border caret-transparent leading-5 px-4 py-2 hover:text-neutral-900 ${
-                    location.pathname === '/career' ? 'text-neutral-900' : ''
+                    location.pathname === '/career' ? 'text-white' : ''
                   }`}
                 >
                   Career
                   {location.pathname === '/career' && (
-                    <span className="absolute bg-neutral-900 box-border caret-transparent block h-0.5 transform-none origin-[0%_50%] bottom-1.5 inset-x-4"></span>
+                    <span className="absolute bg-white box-border caret-transparent block h-0.5 transform-none origin-[0%_50%] bottom-1.5 inset-x-4"></span>
                   )}
                 </Link>
               </div>
@@ -60,12 +60,12 @@ const Header = () => {
                   to="/blog"
                   aria-label="blog"
                   className={`relative text-sm font-medium box-border caret-transparent leading-5 px-4 py-2 hover:text-neutral-900 ${
-                    location.pathname === '/blog' ? 'text-neutral-900' : ''
+                    location.pathname === '/blog' ? 'text-white' : ''
                   }`}
                 >
                   Blog
                   {location.pathname === '/blog' && (
-                    <span className="absolute bg-neutral-900 box-border caret-transparent block h-0.5 transform-none origin-[0%_50%] bottom-1.5 inset-x-4"></span>
+                    <span className="absolute bg-white box-border caret-transparent block h-0.5 transform-none origin-[0%_50%] bottom-1.5 inset-x-4"></span>
                   )}
                 </Link>
               </div>
@@ -73,13 +73,13 @@ const Header = () => {
                 <Link
                   aria-label="projects"
                   to="/projects"
-                  className={`relative text-sm font-medium box-border caret-transparent leading-5 px-4 py-2 hover:text-neutral-900 ${
-                    location.pathname === '/projects' ? 'text-neutral-900' : ''
+                  className={`relative text-sm font-medium box-border caret-transparent leading-5 px-4 py-2 hover:text-white ${
+                    location.pathname === '/projects' ? 'text-white' : ''
                   }`}
                 >
                   Projects
                   {location.pathname === '/projects' && (
-                    <span className="absolute bg-neutral-900 box-border caret-transparent block h-0.5 transform-none origin-[0%_50%] bottom-1.5 inset-x-4"></span>
+                    <span className="absolute bg-white box-border caret-transparent block h-0.5 transform-none origin-[0%_50%] bottom-1.5 inset-x-4"></span>
                   )}
                 </Link>
               </div>
@@ -87,8 +87,8 @@ const Header = () => {
                 <Link
                   aria-label="contact"
                   to="/contact"
-                  className={`relative text-sm font-medium box-border caret-transparent leading-5 px-4 py-2 hover:text-neutral-900 ${
-                    location.pathname === '/contact' ? 'text-neutral-900' : ''
+                  className={`relative text-sm font-medium box-border caret-transparent leading-5 px-4 py-2 hover:text-white ${
+                    location.pathname === '/contact' ? 'text-white' : ''
                   }`}
                 >
                   Contact
