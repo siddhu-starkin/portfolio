@@ -6,8 +6,8 @@ const Header = () => {
   const location = useLocation();
 
   return (
-    <header className="fixed box-border caret-transparent z-50 px-6 top-4 inset-x-0 md:px-8">
-      <div className="backdrop-blur-xl bg-white/80 shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent max-w-screen-xl w-full border border-neutral-200/50 mx-auto px-6 py-4 rounded-2xl border-solid">
+    <header className="fixed box-border text-white caret-transparent z-50 px-6 top-4 inset-x-0 md:px-8">
+      <div className="backdrop-blur-xl  bg-black/80 shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent max-w-screen-xl w-full border border-black/50 mx-auto px-6 py-4 rounded-2xl border-solid">
         <div className="items-center box-border caret-transparent flex justify-between">
           <div className="items-center box-border caret-transparent gap-x-8 flex flex-wrap gap-y-8">
             <Link
@@ -22,7 +22,7 @@ const Header = () => {
                   className="text-transparent aspect-[auto_36_/_36] shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_4px_6px_-1px,rgba(0,0,0,0.1)_0px_2px_4px_-2px] box-border max-w-full w-9 rounded-xl"
                 />
               </div>
-              <span className="text-transparent text-xl font-bold bg-clip-text bg-[linear-gradient(to_right,rgb(23,23,23),rgba(23,23,23,0.7))] box-border block leading-7">
+              <span className="text-transparent text-xl font-bold bg-clip-text bg-[linear-gradient(to_right,rgb(23,23,23),rgba(23,23,23,0.7))] box-border block leading-7 text-white">
                 HARSHHAA
               </span>
             </Link>
@@ -31,13 +31,13 @@ const Header = () => {
                 <Link
                   aria-label="about"
                   to="/"
-                  className={`relative text-sm font-medium box-border caret-transparent leading-5 px-4 py-2 ${
+                  className={`relative text-white text-sm font-medium box-border caret-transparent leading-5 px-4 py-2 ${
                     location.pathname === '/' ? 'text-neutral-900' : 'hover:text-neutral-900'
                   }`}
                 >
                   About
                   {location.pathname === '/' && (
-                    <span className="absolute bg-neutral-900 box-border caret-transparent block h-0.5 origin-[0%_50%] bottom-1.5 inset-x-4"></span>
+                    <span className="absolute bg-white box-border caret-transparent block h-0.5 origin-[0%_50%] bottom-1.5 inset-x-4"></span>
                   )}
                 </Link>
               </div>

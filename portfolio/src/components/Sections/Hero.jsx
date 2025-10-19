@@ -12,7 +12,7 @@ const Hero = () => {
                 className="box-border caret-transparent block shrink-0 text-center translate-y-[-4.52821px] rounded-full md:text-left md:translate-y-[-9.60336px]"
               >
                 <div className="relative box-border caret-transparent text-center md:text-left">
-                  <span className="relative shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_20px_25px_-5px,rgba(0,0,0,0.1)_0px_8px_10px_-6px] box-border caret-transparent flex shrink-0 h-40 text-center w-40 z-10 overflow-hidden rounded-full border-4 border-solid border-white md:h-48 md:text-left md:w-48">
+                  <span className="relative shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_20px_25px_-5px,rgba(0,0,0,0.1)_0px_8px_10px_-6px] box-border caret-transparent flex shrink-0 h-40 text-center w-40 z-10 overflow-hidden rounded-full border-4 border-solid border-black/50 md:h-48 md:text-left md:w-48">
                     <img
                       alt="Harshhaa"
                       src="https://c.animaapp.com/mgxexrjdNC0nO9/assets/avatar.png"

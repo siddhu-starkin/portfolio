@@ -12,7 +12,7 @@ import Contact from './pages/Contact';
 export const App = () => {
   return (
     <Router>
-      <div className="text-neutral-950 text-base not-italic normal-nums font-normal accent-auto bg-white box-border caret-transparent block tracking-[normal] leading-6 list-outside list-disc pointer-events-auto text-start indent-[0px] normal-case visible w-full border-separate font-geistsans_fb8f2c">
+      <div className="text-neutral-950 text-base not-italic normal-nums font-normal accent-auto bg-black box-border caret-transparent block tracking-[normal] leading-6 list-outside list-disc pointer-events-auto text-start indent-[0px] normal-case visible w-full border-separate font-geistsans_fb8f2c">
         <Header />
         <Routes>
           <Route path="/" element={<About />} />
