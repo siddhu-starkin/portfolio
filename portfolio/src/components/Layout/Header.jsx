@@ -1,4 +1,5 @@
 import React from 'react';
+import './header.css';
 import { Link, useLocation } from 'react-router-dom';
 import MobileNavLink from '../MobileNavLink';
 
@@ -6,7 +7,7 @@ const Header = () => {
   const location = useLocation();
 
   return (
-    <header className="fixed box-border text-white caret-transparent z-50 px-6 top-4 inset-x-0 md:px-8">
+    <header className="fixed box-border text-white caret-transparent z-50 px-6 top-4 inset-x-0 md:px-8 move">
       <div className="backdrop-blur-xl  bg-black/80 shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent max-w-screen-xl w-full border border-black/50 mx-auto px-6 py-4 rounded-2xl border-solid">
         <div className="items-center box-border caret-transparent flex justify-between">
           <div className="items-center box-border caret-transparent gap-x-8 flex flex-wrap gap-y-8">

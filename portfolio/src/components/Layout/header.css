@@ -1,0 +1,14 @@
+.move{
+    animation: moveb 1s ease-in-out;
+}
+
+@keyframes moveb{
+    0%{
+        transform: translate(0px,-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0px,0px);
+        opacity: 1;
+    }
+}

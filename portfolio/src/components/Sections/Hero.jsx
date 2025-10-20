@@ -1,4 +1,5 @@
 import React from 'react';
+import './hero.css';
 
 const Hero = () => {
   return (
@@ -6,10 +7,10 @@ const Hero = () => {
       <main className="box-border caret-transparent flex basis-[0%] flex-col grow w-full">
         <section className="relative box-border caret-transparent w-full overflow-hidden pt-8 pb-16 md:pt-16 md:pb-32">
           <div className="relative box-border caret-transparent gap-x-10 flex flex-col max-w-6xl gap-y-10 text-center w-full mx-auto md:max-w-screen-xl md:text-left">
-            <div className="items-center box-border caret-transparent gap-x-6 flex flex-col justify-center gap-y-6 text-center md:gap-x-10 md:flex-row md:justify-start md:gap-y-10 md:text-left">
+            <div className=" items-center box-border caret-transparent gap-x-6 flex flex-col justify-center gap-y-6 text-center md:gap-x-10 md:flex-row md:justify-start md:gap-y-10 md:text-left">
               <a
                 href="https://github.com/NotHarshhaa"
-                className="box-border caret-transparent block shrink-0 text-center translate-y-[-4.52821px] rounded-full md:text-left md:translate-y-[-9.60336px]"
+                className=" box-border caret-transparent block shrink-0 text-center rounded-full md:text-left  image"
               >
                 <div className="relative box-border caret-transparent text-center md:text-left">
                   <span className="relative shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_20px_25px_-5px,rgba(0,0,0,0.1)_0px_8px_10px_-6px] box-border caret-transparent flex shrink-0 h-40 text-center w-40 z-10 overflow-hidden rounded-full border-4 border-solid border-black/50 md:h-48 md:text-left md:w-48">
@@ -22,14 +23,12 @@ const Hero = () => {
                 </div>
               </a>
             </div>
-            <div className="items-center box-border caret-transparent gap-x-6 flex flex-col gap-y-6 text-center md:items-start md:text-left">
-              <div className="items-center box-border caret-transparent gap-x-4 flex flex-wrap justify-center gap-y-4 text-center md:justify-start md:text-left">
-                <h1 className="text-white text-4xl font-bold tracking-[-0.9px] leading-[49.5px] break-words text-center md:text-5xl md:tracking-[-1.2px] md:leading-[48px] text-pretty">
-                  Harshhaa Vardhan Reddy
-                </h1>
+            <div className="moveup items-center box-border caret-transparent gap-x-6 flex flex-col gap-y-6 text-center md:items-start md:text-left">
+              <div className="items-center box-border caret-transparent gap-x-4 flex justify-center gap-y-4 text-center md:justify-start md:text-left min-h-[60px]">
+                <h1 className="text-center text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight leading-snug break-words text-4xl md:text-5xl font-bold bg-gradient-to-r from-white via-white/80 to-white/60 bg-clip-text text-transparent drop-shadow-sm typing-animation">Nithyasri Reddy</h1>
                 <a
                   href="https://linkedin.com/in/harshhaa-vardhan-reddy"
-                  className="text-white text-xs font-bold items-center backdrop-blur-md bg-[linear-gradient(to_right,rgb(23,23,23),rgba(23,23,23,0.8))] shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_4px_6px_-1px,rgba(0,0,0,0.1)_0px_2px_4px_-2px] box-border caret-transparent gap-x-1.5 hidden justify-center leading-4 min-h-0 min-w-0 gap-y-1.5 text-center text-nowrap border border-neutral-900/30 px-3 py-1.5 rounded-full border-solid font-geistmono_f910ec md:flex md:min-h-[auto] md:min-w-[auto] md:text-left hover:bg-neutral-900/90 hover:shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px]"
+                  className="text-white text-xs font-bold items-center backdrop-blur-md bg-[linear-gradient(to_right,rgb(23,23,23),rgba(23,23,23,0.8))] shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_4px_6px_-1px,rgba(0,0,0,0.1)_0px_2px_4px_-2px] box-border caret-transparent gap-x-1.5 hidden justify-center leading-4 min-h-0 min-w-0 gap-y-1.5 text-center text-nowrap border border-neutral-900/30 px-3 py-1.5 rounded-full border-solid font-geistmono_f910ec md:flex md:min-h-[auto] md:min-w-[auto] md:text-left hover:bg-neutral-900/90 hover:shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] hover:scale-110 hover:transition-all duration-300 "
                 >
                   <span className="bg-green-400 box-border caret-transparent inline h-2 min-h-0 min-w-0 text-center text-nowrap w-2 rounded-full md:block md:min-h-[auto] md:min-w-[auto] md:text-left"></span>
                   Available
