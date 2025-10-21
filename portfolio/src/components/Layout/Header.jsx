@@ -10,24 +10,23 @@ const Header = () => {
     <header className="fixed box-border text-white caret-transparent z-50 px-6 top-4 inset-x-0 md:px-8 move">
       <div className="backdrop-blur-xl  bg-black/80 shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent max-w-screen-xl w-full border border-black/50 mx-auto px-6 py-4 rounded-2xl border-solid">
         <div className="items-center box-border caret-transparent flex justify-between">
-          <div className="items-center box-border caret-transparent gap-x-8 flex flex-wrap gap-y-8">
+          <div className="items-center box-border caret-transparent gap-x-8 flex flex-wrap gap-y-8 hover:scale">
             <Link
               aria-label="Logo"
               to="/"
-              className="items-center box-border caret-transparent gap-x-3 flex gap-y-3"
+              className="hover:scale-105 transition-transform duration-300 items-center box-border caret-transparent gap-x-3 flex gap-y-3"
             >
               <div className="box-border caret-transparent">
                 <img
                   alt="Logo"
                   src="https://c.animaapp.com/mgxexrjdNC0nO9/assets/logo.svg"
-                  className="text-transparent aspect-[auto_36_/_36] shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_4px_6px_-1px,rgba(0,0,0,0.1)_0px_2px_4px_-2px] box-border max-w-full w-9 rounded-xl"
+                  className="rotateicon text-transparent aspect-[auto_36_/_36] shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_4px_6px_-1px,rgba(0,0,0,0.1)_0px_2px_4px_-2px] box-border max-w-full w-9 rounded-xl"
                 />
               </div>
-              <span className="text-transparent text-xl font-bold bg-clip-text bg-[linear-gradient(to_right,rgb(23,23,23),rgba(23,23,23,0.7))] box-border block leading-7 text-white">
-                HARSHHAA
-              </span>
+                              <h1 className=" font-bold tracking-tight leading-snug break-words font-bold bg-gradient-to-r from-white via-white/80 to-white/60 bg-clip-text text-transparent drop-shadow-sm text-xl">NITHYAA</h1>
+
             </Link>
-            <nav className="items-center box-border caret-transparent gap-x-2 hidden min-h-0 min-w-0 gap-y-2 md:flex md:min-h-[auto] md:min-w-[auto]">
+            <nav className=" items-center box-border caret-transparent gap-x-2 hidden min-h-0 min-w-0 gap-y-2 md:flex md:min-h-[auto] md:min-w-[auto]">
               <div className="relative box-border caret-transparent min-h-0 min-w-0 md:min-h-[auto] md:min-w-[auto]">
                 <Link
                   aria-label="about"

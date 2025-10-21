@@ -1,11 +1,36 @@
-import React from 'react';
-import TimelineItem from '../components/TimelineItem';
 
+import React, { useEffect, useRef, useState } from 'react';
+import TimelineItem from '../components/TimelineItem';
+import "./career.css";
+import AnimateOnVisible from '../components/AnimateOnVisible';
 const Career = () => {
+  const careerRef = useRef(null);
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+          observer.disconnect(); // Run only once
+        }
+      },
+      { threshold: 0.1 }
+    );
+
+    if (careerRef.current) {
+      observer.observe(careerRef.current);
+    }
+
+    return () => observer.disconnect();
+  }, []);
   return (
-    <main className="relative items-center box-border caret-transparent flex flex-col isolate justify-center min-h-[1000px] w-full overflow-hidden pt-[200px] pb-8 px-4 md:pt-[130px] md:px-8 before:accent-auto before:bg-[radial-gradient(rgba(192,132,252,0.3),rgba(167,139,250,0.1),rgba(0,0,0,0))] before:box-border before:caret-transparent before:text-neutral-950 before:block before:blur-3xl before:text-base before:not-italic before:normal-nums before:font-normal before:tracking-[normal] before:leading-6 before:list-outside before:list-disc before:pointer-events-auto before:absolute before:text-start before:indent-[0px] before:normal-case before:visible before:-z-10 before:border-separate before:inset-0 before:font-geistsans_fb8f2c">
-      <div className="items-center box-border caret-transparent flex basis-[0%] flex-col grow px-4">
-        <section className="box-border caret-transparent flex flex-col max-w-screen-xl gap-y-4 w-full mx-auto pb-24 scroll-mt-24 md:max-w-screen-lg">
+    <main className=" relative items-center box-border caret-transparent flex flex-col isolate justify-center min-h-[1000px] w-full overflow-hidden pt-[200px] pb-8 px-4 md:pt-[130px] md:px-8 before:accent-auto before:bg-[radial-gradient(rgba(192,132,252,0.3),rgba(167,139,250,0.1),rgba(0,0,0,0))] before:box-border before:caret-transparent before:text-neutral-950 before:block before:blur-3xl before:text-base before:not-italic before:normal-nums before:font-normal before:tracking-[normal] before:leading-6 before:list-outside before:list-disc before:pointer-events-auto before:absolute before:text-start before:indent-[0px] before:normal-case before:visible before:-z-10 before:border-separate before:inset-0 before:font-geistsans_fb8f2c">
+      <div className=" items-center box-border caret-transparent flex basis-[0%] flex-col grow px-4">
+        <section
+  ref={careerRef}
+  className={`career ${isVisible ? 'animate' : ''} box-border caret-transparent flex flex-col max-w-screen-xl gap-y-4 w-full mx-auto pb-24 scroll-mt-24 md:max-w-screen-lg`}
+>
           <section className="relative box-border caret-transparent w-full overflow-hidden px-2 py-12 md:px-0">
             <div className="items-center box-border caret-transparent gap-x-4 flex justify-center mb-6 md:justify-start">
               <img
@@ -18,6 +43,7 @@ const Career = () => {
               </h2>
             </div>
             <ol className="box-border caret-transparent flex flex-col list-none gap-y-12 ml-[11.5px] mt-12 pl-0">
+              <AnimateOnVisible>
               <TimelineItem
                 company="DEV Community"
                 workType="Remote"
@@ -31,6 +57,8 @@ const Career = () => {
                 link="https://dev.to/notharshhaa"
                 isFirst={true}
               />
+              </AnimateOnVisible>
+              <AnimateOnVisible>
               <TimelineItem
                 company="Hashnode"
                 workType="Remote"
@@ -43,6 +71,8 @@ const Career = () => {
                 ]}
                 link="https://hashnode.com/@prodevopsguy"
               />
+              </AnimateOnVisible>
+              <AnimateOnVisible>
               <TimelineItem
                 company="Tata Consultancy Services"
                 workType="Hybrid"
@@ -56,6 +86,8 @@ const Career = () => {
                 ]}
                 link="https://www.tcs.com/"
               />
+              </AnimateOnVisible>
+              <AnimateOnVisible>
               <TimelineItem
                 company="IBM"
                 workType="Remote"
@@ -68,7 +100,7 @@ const Career = () => {
                   "Integrated containers with Kubernetes for scalable deployments.",
                 ]}
                 link="https://www.ibm.com/"
-              />
+              /></AnimateOnVisible>
               <TimelineItem
                 company="JNTUH"
                 workType="OnCampus"

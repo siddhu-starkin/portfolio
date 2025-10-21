@@ -1,0 +1,20 @@
+.career {
+  opacity: 0;
+  transform: translate(-20px, 10px);
+  transition: all 1s ease-in-out;
+}
+
+.career.animate {
+  opacity: 1;
+  transform: translate(0px, 0px);
+}
+.timeline-card {
+  opacity: 0;
+  transform: translateX(-30px);
+  transition: all 0.8s ease-out;
+}
+
+.timeline-card.animate {
+  opacity: 1;
+  transform: translateX(0);
+}
