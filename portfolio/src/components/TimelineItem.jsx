@@ -5,11 +5,11 @@ const TimelineItem = ({ company, workType, position, period, responsibilities, l
     <li className="box-border caret-transparent ml-[30px]">
       <div className="relative box-border caret-transparent border-gray-600 pl-8 border-l-2 border-solid">
         <div
-          className={`absolute bg-white shadow-lg box-border caret-transparent h-4 w-4 mt-2.5 rounded-full border-2 border-solid border-gray-800 -left-2.5 ${isFirst ? "md:shadow-xl" : ""}`}
+          className={`absolute bg-white shadow-4xl box-border caret-transparent h-4 w-4 mt-2.5 rounded-full border-2 border-solid border-gray-800 -left-2.5 ${isFirst ? "md:shadow-3xl" : ""}`}
         ></div>
         <div className="backdrop-blur-xl bg-black/80 shadow-lg box-border caret-transparent border border-black/40 p-6 rounded-2xl border-solid">
           <div className="items-center box-border caret-transparent gap-x-3 flex mb-4">
-            <h3 className="text-white text-2xl font-bold box-border leading-8 text-pretty">
+            <h3 className="text-2xl font-bold tracking-tight leading-snug break-words font-bold bg-gradient-to-r from-white via-white/80 to-white/60 bg-clip-text text-transparent drop-shadow-sm">
               {company}
             </h3>
             <div className="box-border caret-transparent">

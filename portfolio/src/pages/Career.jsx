@@ -38,7 +38,7 @@ const Career = () => {
                 alt="Icon"
                 className="text-white box-border caret-transparent h-7 w-7"
               />
-              <h2 className="text-white text-4xl font-bold box-border tracking-[-0.9px] leading-10 text-pretty">
+              <h2 className=" text-4xl font-bold tracking-tight leading-snug break-words font-bold bg-gradient-to-r from-white via-white/80 to-white/60 bg-clip-text text-transparent drop-shadow-sm">
                 Career &amp; Works
               </h2>
             </div>

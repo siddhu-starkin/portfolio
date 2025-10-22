@@ -3,7 +3,7 @@ import './hero.css';
 
 const Hero = () => {
   return (
-    <main className="relative items-center box-border caret-transparent flex flex-col isolate justify-center min-h-[1000px] w-full overflow-hidden pt-[200px] pb-8 px-4 md:pt-[130px] md:px-8 before:accent-auto before:bg-[radial-gradient(rgba(192,132,252,0.3),rgba(167,139,250,0.1),rgba(0,0,0,0))] before:box-border before:caret-transparent before:text-neutral-950 before:block before:blur-3xl before:text-base before:not-italic before:normal-nums before:font-normal before:tracking-[normal] before:leading-6 before:list-outside before:list-disc before:pointer-events-auto before:absolute before:text-start before:indent-[0px] before:normal-case before:visible before:-z-10 before:border-separate before:inset-0 before:font-geistsans_fb8f2c">
+    <main className="relative items-center box-border caret-transparent flex flex-col isolate justify-center min-h-[1000px] w-full overflow-hidden pt-[200px] pb-8 px-4 md:pt-[130px] md:px-8 before:accent-auto before:bg-[radial-gradient(rgba(192,132,252,0.3),rgba(167,139,250,0.2),rgba(167,139,250,0.1),rgba(0,0,0,0))] before:box-border before:caret-transparent before:text-neutral-950 before:block before:blur-3xl before:text-base before:not-italic before:normal-nums before:font-normal before:tracking-[normal] before:leading-6 before:list-outside before:list-disc before:pointer-events-auto before:absolute before:text-start before:indent-[0px] before:normal-case before:visible before:-z-10 before:border-separate before:inset-0 before:font-geistsans_fb8f2c">
       <main className="box-border caret-transparent flex basis-[0%] flex-col grow w-full">
         <section className="relative box-border caret-transparent w-full overflow-hidden pt-8  md:pt-16 ">
           <div className="relative box-border caret-transparent gap-x-10 flex flex-col max-w-6xl gap-y-10 text-center w-full mx-auto md:max-w-screen-xl md:text-left">
@@ -34,7 +34,7 @@ const Hero = () => {
                   Available
                 </a>
               </div>
-              <div className="text-white bg-transparent shadow-none box-border caret-transparent gap-x-2.5 flex flex-col gap-y-2.5 text-center w-full p-5 rounded-none border-0 border-solid font-mono md:backdrop-blur-sm md:bg-white/10 md:shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_20px_25px_-5px,rgba(0,0,0,0.1)_0px_8px_10px_-6px] md:gap-x-3 md:gap-y-3 md:text-left md:border md:p-8 md:rounded-2xl md:border-white/20">
+              <div className="text-white bg-transparent shadow-none box-border caret-transparent gap-x-2.5 flex flex-col gap-y-2.5 text-center w-full p-5 rounded-none  font-mono md:backdrop-blur-sm md:bg-black/10 md:shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_20px_25px_-5px,rgba(0,0,0,0.1)_0px_8px_10px_-6px] md:gap-x-3 md:gap-y-3 md:text-left  md:p-8 md:rounded-2xl ">
                 <p className="text-white text-lg font-semibold box-border leading-7 text-center md:text-xl md:text-left text-pretty">
                   DevOps Engineer focused on automation, scalability, and cloud
                   infrastructure. Based in Hyderabad, India 🇮🇳
