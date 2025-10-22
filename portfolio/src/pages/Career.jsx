@@ -25,11 +25,11 @@ const Career = () => {
     return () => observer.disconnect();
   }, []);
   return (
-    <main className=" relative items-center box-border caret-transparent flex flex-col isolate justify-center min-h-[1000px] w-full overflow-hidden pt-[200px] pb-8 px-4 md:pt-[130px] md:px-8 before:accent-auto before:bg-[radial-gradient(rgba(192,132,252,0.3),rgba(167,139,250,0.1),rgba(0,0,0,0))] before:box-border before:caret-transparent before:text-neutral-950 before:block before:blur-3xl before:text-base before:not-italic before:normal-nums before:font-normal before:tracking-[normal] before:leading-6 before:list-outside before:list-disc before:pointer-events-auto before:absolute before:text-start before:indent-[0px] before:normal-case before:visible before:-z-10 before:border-separate before:inset-0 before:font-geistsans_fb8f2c">
+    <main className=" relative items-center box-border caret-transparent flex flex-col isolate justify-center min-h-[1000px] w-full overflow-hidden pb-8 px-4  md:px-8 before:accent-auto before:bg-[radial-gradient(rgba(192,132,252,0.3),rgba(167,139,250,0.1),rgba(0,0,0,0))] before:box-border before:caret-transparent before:text-neutral-950 before:block before:blur-3xl before:text-base before:not-italic before:normal-nums before:font-normal before:tracking-[normal] before:leading-6 before:list-outside before:list-disc before:pointer-events-auto before:absolute before:text-start before:indent-[0px] before:normal-case before:visible before:-z-10 before:border-separate before:inset-0 before:font-geistsans_fb8f2c">
       <div className=" items-center box-border caret-transparent flex basis-[0%] flex-col grow px-4">
         <section
   ref={careerRef}
-  className={`career ${isVisible ? 'animate' : ''} box-border caret-transparent flex flex-col max-w-screen-xl gap-y-4 w-full mx-auto pb-24 scroll-mt-24 md:max-w-screen-lg`}
+  className={`career ${isVisible ? 'animate' : ''} box-border caret-transparent flex flex-col max-w-screen-xl gap-y-4 w-full mx-auto pb-12 scroll-mt-24 md:max-w-screen-lg`}
 >
           <section className="relative box-border caret-transparent w-full overflow-hidden px-2 py-12 md:px-0">
             <div className="items-center box-border caret-transparent gap-x-4 flex justify-center mb-6 md:justify-start">

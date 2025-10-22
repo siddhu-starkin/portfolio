@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <main className="relative items-center box-border caret-transparent flex flex-col isolate justify-center min-h-[1000px] w-full overflow-hidden pt-[200px] pb-8 px-4 md:pt-[130px] md:px-8 before:accent-auto before:bg-[radial-gradient(rgba(192,132,252,0.3),rgba(167,139,250,0.1),rgba(0,0,0,0))] before:box-border before:caret-transparent before:text-neutral-950 before:block before:blur-3xl before:text-base before:not-italic before:normal-nums before:font-normal before:tracking-[normal] before:leading-6 before:list-outside before:list-disc before:pointer-events-auto before:absolute before:text-start before:indent-[0px] before:normal-case before:visible before:-z-10 before:border-separate before:inset-0 before:font-geistsans_fb8f2c">
       <main className="box-border caret-transparent flex basis-[0%] flex-col grow w-full">
-        <section className="relative box-border caret-transparent w-full overflow-hidden pt-8 pb-16 md:pt-16 md:pb-32">
+        <section className="relative box-border caret-transparent w-full overflow-hidden pt-8  md:pt-16 ">
           <div className="relative box-border caret-transparent gap-x-10 flex flex-col max-w-6xl gap-y-10 text-center w-full mx-auto md:max-w-screen-xl md:text-left">
             <div className=" items-center box-border caret-transparent gap-x-6 flex flex-col justify-center gap-y-6 text-center md:gap-x-10 md:flex-row md:justify-start md:gap-y-10 md:text-left">
               <a
@@ -54,104 +54,7 @@ const Hero = () => {
                 </p>
               </div>
             </div>
-            <nav className="[align-items:normal] box-border caret-transparent gap-x-3 grid grid-cols-[repeat(1,minmax(0px,1fr))] justify-normal gap-y-3 text-center w-full md:items-center md:gap-x-4 md:flex md:grid-cols-[repeat(3,minmax(0px,1fr))] md:justify-center md:gap-y-4 md:text-left">
-              <div className="box-border caret-transparent flex justify-center text-center w-full md:text-left md:w-auto">
-                <a
-                  href="https://github.com/NotHarshhaa"
-                  aria-label="GitHub"
-                  className="text-white text-sm font-semibold items-center backdrop-blur-sm bg-gray-800/70 shadow-lg box-border caret-transparent gap-x-2.5 flex justify-center leading-5 min-w-40 gap-y-2.5 text-center text-nowrap w-full border border-gray-600/20 px-4 py-2.5 rounded-xl border-solid md:gap-x-3 md:min-w-[180px] md:gap-y-3 md:text-left md:w-auto md:px-6 md:py-3 hover:bg-gray-700/50 hover:shadow-xl"
-                >
-                  <img
-                    src="https://c.animaapp.com/mgxexrjdNC0nO9/assets/icon-2.svg"
-                    alt="Icon"
-                    className="box-border caret-transparent h-[20.8px] text-center text-nowrap w-[20.8px] md:h-5 md:text-left md:w-5"
-                  />
-                  <p className="text-white box-border caret-transparent text-center text-nowrap md:text-left">
-                    GitHub
-                  </p>
-                </a>
-              </div>
-              <div className="box-border caret-transparent flex justify-center text-center w-full md:text-left md:w-auto">
-                <a
-                  href="https://linkedin.com/in/harshhaa-vardhan-reddy"
-                  aria-label="LinkedIn"
-                  className="text-white text-sm font-semibold items-center backdrop-blur-sm bg-gray-800/70 shadow-lg box-border caret-transparent gap-x-2.5 flex justify-center leading-5 min-w-40 gap-y-2.5 text-center text-nowrap w-full border border-gray-600/20 px-4 py-2.5 rounded-xl border-solid md:gap-x-3 md:min-w-[180px] md:gap-y-3 md:text-left md:w-auto md:px-6 md:py-3 hover:bg-gray-700/50 hover:shadow-xl"
-                >
-                  <img
-                    src="https://c.animaapp.com/mgxexrjdNC0nO9/assets/icon-3.svg"
-                    alt="Icon"
-                    className="box-border caret-transparent h-[20.8px] text-center text-nowrap w-[20.8px] md:h-5 md:text-left md:w-5"
-                  />
-                  <p className="text-white box-border caret-transparent text-center text-nowrap md:text-left">
-                    LinkedIn
-                  </p>
-                </a>
-              </div>
-              <div className="box-border caret-transparent flex justify-center text-center w-full md:text-left md:w-auto">
-                <a
-                  href="https://t.me/notharshhaa"
-                  aria-label="Telegram"
-                  className="text-white text-sm font-semibold items-center backdrop-blur-sm bg-gray-800/70 shadow-lg box-border caret-transparent gap-x-2.5 flex justify-center leading-5 min-w-40 gap-y-2.5 text-center text-nowrap w-full border border-gray-600/20 px-4 py-2.5 rounded-xl border-solid md:gap-x-3 md:min-w-[180px] md:gap-y-3 md:text-left md:w-auto md:px-6 md:py-3 hover:bg-gray-700/50 hover:shadow-xl"
-                >
-                  <img
-                    src="https://c.animaapp.com/mgxexrjdNC0nO9/assets/icon-4.svg"
-                    alt="Icon"
-                    className="box-border caret-transparent h-[20.8px] text-center text-nowrap w-[20.8px] md:h-5 md:text-left md:w-5"
-                  />
-                  <p className="text-white box-border caret-transparent text-center text-nowrap md:text-left">
-                    Telegram
-                  </p>
-                </a>
-              </div>
-              <div className="box-border caret-transparent flex justify-center text-center w-full md:text-left md:w-auto">
-                <a
-                  href="https://cv.notharshhaa.site/"
-                  aria-label="Resume"
-                  className="text-white text-sm font-semibold items-center backdrop-blur-sm bg-gray-800/70 shadow-lg box-border caret-transparent gap-x-2.5 flex justify-center leading-5 min-w-40 gap-y-2.5 text-center text-nowrap w-full border border-gray-600/20 px-4 py-2.5 rounded-xl border-solid md:gap-x-3 md:min-w-[180px] md:gap-y-3 md:text-left md:w-auto md:px-6 md:py-3 hover:bg-gray-700/50 hover:shadow-xl"
-                >
-                  <img
-                    src="https://c.animaapp.com/mgxexrjdNC0nO9/assets/icon-5.svg"
-                    alt="Icon"
-                    className="box-border caret-transparent h-[20.8px] text-center text-nowrap w-[20.8px] md:h-5 md:text-left md:w-5"
-                  />
-                  <p className="text-white box-border caret-transparent text-center text-nowrap md:text-left">
-                    Resume
-                  </p>
-                </a>
-              </div>
-              <div className="box-border caret-transparent flex justify-center text-center w-full md:text-left md:w-auto">
-                <a
-                  href="mailto://harshhaa03@gmail.com"
-                  aria-label="Email"
-                  className="text-white text-sm font-semibold items-center backdrop-blur-sm bg-gray-800/70 shadow-lg box-border caret-transparent gap-x-2.5 flex justify-center leading-5 min-w-40 gap-y-2.5 text-center text-nowrap w-full border border-gray-600/20 px-4 py-2.5 rounded-xl border-solid md:gap-x-3 md:min-w-[180px] md:gap-y-3 md:text-left md:w-auto md:px-6 md:py-3 hover:bg-gray-700/50 hover:shadow-xl"
-                >
-                  <img
-                    src="https://c.animaapp.com/mgxexrjdNC0nO9/assets/icon-6.svg"
-                    alt="Icon"
-                    className="box-border caret-transparent h-[20.8px] text-center text-nowrap w-[20.8px] md:h-5 md:text-left md:w-5"
-                  />
-                  <p className="text-white box-border caret-transparent text-center text-nowrap md:text-left">
-                    Email
-                  </p>
-                </a>
-              </div>
-              <div className="box-border caret-transparent flex justify-center text-center w-full md:text-left md:w-auto">
-                <a
-                  href="https://link.notharshhaa.site/"
-                  aria-label="Other Links"
-                  className="text-white text-sm font-semibold items-center backdrop-blur-sm bg-gray-800/70 shadow-lg box-border caret-transparent gap-x-2.5 flex justify-center leading-5 min-w-40 gap-y-2.5 text-center text-nowrap w-full border border-gray-600/20 px-4 py-2.5 rounded-xl border-solid md:gap-x-3 md:min-w-[180px] md:gap-y-3 md:text-left md:w-auto md:px-6 md:py-3 hover:bg-gray-700/50 hover:shadow-xl"
-                >
-                  <img
-                    src="https://c.animaapp.com/mgxexrjdNC0nO9/assets/icon-7.svg"
-                    alt="Icon"
-                    className="box-border caret-transparent h-[20.8px] text-center text-nowrap w-[20.8px] md:h-5 md:text-left md:w-5"
-                  />
-                  <p className="text-white box-border caret-transparent text-center text-nowrap md:text-left">
-                    Other Links
-                  </p>
-                </a>
-              </div>
-            </nav>
+            
           </div>
         </section>
       </main>
