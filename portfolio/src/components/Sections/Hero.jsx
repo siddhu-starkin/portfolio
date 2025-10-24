@@ -25,9 +25,9 @@ const Hero = () => {
             </div>
             <div className="moveup items-center box-border caret-transparent gap-x-6 flex flex-col gap-y-6 text-center md:items-start md:text-left">
               <div className="items-center box-border caret-transparent gap-x-4 flex justify-center gap-y-4 text-center md:justify-start md:text-left min-h-[60px]">
-                <h1 className="text-center text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight leading-snug break-words text-4xl md:text-5xl font-bold bg-gradient-to-r from-white via-white/80 to-white/60 bg-clip-text text-transparent drop-shadow-sm typing-animation">Nithyasri Reddy</h1>
+                <h1 className="text-center text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight leading-snug break-words text-4xl md:text-5xl font-bold bg-gradient-to-r from-white via-white/80 to-white/60 bg-clip-text text-transparent drop-shadow-sm typing-animation">Nithyasri Aleti</h1>
                 <a
-                  href="https://linkedin.com/in/harshhaa-vardhan-reddy"
+                  href="https://linkedin.com/in/nithyasri-aleti"
                   className="text-white text-xs font-bold items-center backdrop-blur-md bg-[linear-gradient(to_right,rgb(23,23,23),rgba(23,23,23,0.8))] shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_4px_6px_-1px,rgba(0,0,0,0.1)_0px_2px_4px_-2px] box-border caret-transparent gap-x-1.5 hidden justify-center leading-4 min-h-0 min-w-0 gap-y-1.5 text-center text-nowrap border border-neutral-900/30 px-3 py-1.5 rounded-full border-solid font-geistmono_f910ec md:flex md:min-h-[auto] md:min-w-[auto] md:text-left hover:bg-neutral-900/90 hover:shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] hover:scale-110 hover:transition-all duration-300 "
                 >
                   <span className="bg-green-400 box-border caret-transparent inline h-2 min-h-0 min-w-0 text-center text-nowrap w-2 rounded-full md:block md:min-h-[auto] md:min-w-[auto] md:text-left"></span>
@@ -36,21 +36,10 @@ const Hero = () => {
               </div>
               <div className="text-white bg-transparent shadow-none box-border caret-transparent gap-x-2.5 flex flex-col gap-y-2.5 text-center w-full p-5 rounded-none  font-mono md:backdrop-blur-sm md:bg-black/10 md:shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_20px_25px_-5px,rgba(0,0,0,0.1)_0px_8px_10px_-6px] md:gap-x-3 md:gap-y-3 md:text-left  md:p-8 md:rounded-2xl ">
                 <p className="text-white text-lg font-semibold box-border leading-7 text-center md:text-xl md:text-left text-pretty">
-                  DevOps Engineer focused on automation, scalability, and cloud
-                  infrastructure. Based in Hyderabad, India 🇮🇳
+                  Full Stack Java Developer with 4+ years of experience designing and delivering enterprise-grade applications across healthcare, finance, manufacturing and real estate domains
                 </p>
                 <p className="text-white text-base box-border caret-transparent leading-[26px] opacity-90 text-center md:text-lg md:leading-7 md:text-left text-pretty">
-                  I'm a passionate DevOps Engineer on a mission to automate
-                  everything and build highly scalable cloud infrastructures. With a
-                  strong focus on cloud computing, automation, and DevOps best
-                  practices, I specialize in streamlining deployments, optimizing
-                  workflows, and maintaining high-performance infrastructure. I work
-                  on real-time DevOps and cloud projects involving AWS, Azure,
-                  Terraform, Kubernetes, and Docker. I also develop automation scripts
-                  for tool installations and configurations, create comprehensive
-                  interview preparation content and cheat sheets, design curated
-                  learning paths for engineers at all levels, and foster collaborative
-                  spaces for open-source contributions and knowledge sharing.
+                  Skilled in building scalable microservices, APIs and responsive web applications using Java (8/11/17), Spring Boot, React.js, Angular and Node.js. Experienced in AWS, Azure and Pivotal Cloud Foundry (PCF) with strong DevOps proficiency in Docker, Kubernetes, Terraform and Jenkins for CI/CD automation. Adept at developing secure, high-performance systems with Spring Security, JWT and RBAC and optimizing backend performance with PostgreSQL, Oracle, Redis and Kafka.
                 </p>
               </div>
             </div>

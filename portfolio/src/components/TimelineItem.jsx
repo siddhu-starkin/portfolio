@@ -1,6 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-const TimelineItem = ({ company, workType, position, period, responsibilities, link, isFirst = false }) => {
+const TimelineItem = ({ company, workType, position, period, responsibilities, link, isFirst = false, showViewButton = false }) => {
   return (
     <li className="box-border caret-transparent ml-[30px]">
       <div className="relative box-border caret-transparent border-gray-600 pl-8 border-l-2 border-solid">
@@ -38,23 +39,23 @@ const TimelineItem = ({ company, workType, position, period, responsibilities, l
               ))}
             </ul>
           </div>
-          <div className="box-border caret-transparent inline-block mt-2">
-            <a
-              href={link}
-              className="text-black text-sm font-semibold items-center backdrop-blur-md bg-white shadow-lg box-border caret-transparent gap-x-2 flex justify-center leading-5 gap-y-2 text-nowrap border border-white/20 px-5 py-2 rounded-full border-solid hover:bg-white/20 hover:shadow-xl"
-            >
-              <span className="box-border caret-transparent block text-nowrap">
-                View more
-              </span>
-              <span className="box-border caret-transparent block text-nowrap ml-2">
-                <img
-                  src="https://c.animaapp.com/mgxl2czwGGe9ho/assets/icon-3.svg"
-                  alt="Icon"
-                  className="box-border caret-transparent h-4 text-nowrap w-4"
-                />
-              </span>
-            </a>
-          </div>
+          {showViewButton && (
+            <div className="box-border caret-transparent inline-block mt-2">
+              <Link
+                to={link}
+                className="text-black text-sm font-semibold items-center backdrop-blur-md bg-white shadow-lg box-border caret-transparent gap-x-2 flex justify-center leading-5 gap-y-2 text-nowrap border border-white/20 px-5 py-2 rounded-full border-solid hover:bg-white/20 hover:shadow-xl transition-all duration-300"
+              >
+                <span className="box-border caret-transparent block text-nowrap">
+                  View Details
+                </span>
+                <span className="box-border caret-transparent block text-nowrap ml-2">
+                  <svg className="box-border caret-transparent h-4 text-nowrap w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
+                </span>
+              </Link>
+            </div>
+          )}
         </div>
       </div>
     </li>

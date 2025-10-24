@@ -5,6 +5,7 @@ import Header from './components/Layout/Header';
 import Footer from './components/Layout/Footer';
 import About from './pages/About';
 import Career from './pages/Career';
+import Experience from './pages/Experience';
 import Blog from './pages/Blog';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
@@ -17,6 +18,7 @@ export const App = () => {
         <Routes>
           <Route path="/" element={<About />} />
           <Route path="/career" element={<Career />} />
+          <Route path="/experience/:id" element={<Experience />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
